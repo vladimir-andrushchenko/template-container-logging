@@ -49,15 +49,13 @@ ostream& operator<<(ostream& out, const map<Key, Value>& container) {
     return out;
 }
 
-
-
-
-
 int main() {
     const set<string> cats = {"Мурка"s, "Белка"s, "Георгий"s, "Рюрик"s};
     cout << cats << endl;
+    
     const vector<int> ages = {10, 5, 2, 12};
     cout << ages << endl;
+    
     const map<string, int> cat_ages = {
         {"Мурка"s, 10},
         {"Белка"s, 5},
